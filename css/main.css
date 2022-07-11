@@ -78,7 +78,8 @@ header li{
     text-align: justify;
     width: 73%;
     font-size: 1.2vw;
-    line-height: 40px;
+    line-height: 4.5vh;
+    word-spacing: 0.2vw;
  }
 
 .logo-div{
@@ -210,4 +211,10 @@ footer div{
 
 .icon{
     width: 16px;
+}
+
+@media (max-width: 850px) {
+    p{
+        line-height: 2vh;
+    }
 }
