@@ -1,0 +1,213 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: #fbfbfb;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    vertical-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #FBFBFB;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 30%;
+}
+
+header ul{
+    list-style-type: none;
+    white-space:nowrap;
+}
+
+header li{
+    display: inline-block; 
+    margin-left: 40px;
+}
+ header li a{
+    text-decoration: none;
+    color: #179D78;
+    font-size: 2vw;
+
+ }
+
+ header li a:hover{
+    color: #117055;
+    text-decoration: none;
+ }
+
+ hr{
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #117055;
+    margin: 1em 0; padding: 0;  
+ }
+
+ div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ h1{
+    color: #117055;
+    font-size: 4vw;
+ }
+
+ h2{
+    color: #168d6b;
+    font-size: 4vw;
+ }
+
+ h3{
+    color: #1caf85;
+    font-size: 3vw;
+ }
+
+ p{
+    justify-content: left;
+    text-align: justify;
+    width: 73%;
+    font-size: 1.2vw;
+    line-height: 40px;
+ }
+
+.logo-div{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+.header-links{
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+ .main-grid{
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+    width: 100%;
+    
+ }
+
+ .main-grid div{
+    margin-top: 40px;
+    width: 75%;
+ }
+ .main-grid img{
+    width: 73%;
+    height: 50%;
+ }
+
+
+.main-grid .Estagio img{
+    max-width: 30%;
+    max-height: 280px;   
+}
+
+.img-3{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.p-3{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p-3 p{
+    width: 30%;
+}
+
+
+.Exp img{
+    width: 40%;
+}
+
+.Exp .row, .Exp .row-rever{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.Exp .row p{
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.Exp .row-rever p{
+    margin-right: 40px;
+    margin-top: 0;
+    
+}
+
+.main-grid .Locais .img-3 img{
+    max-width: 30%;
+    max-height: 250px;   
+}
+
+.Locais{
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: #117055;
+    color: #fbfbfb;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+
+footer p{
+    font-size: 12px;
+}
+
+footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer div{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.icon{
+    width: 16px;
+}
