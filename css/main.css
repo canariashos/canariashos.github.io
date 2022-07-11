@@ -122,14 +122,15 @@ header li{
 .p-3{
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: justify;
     padding-top: 0;
     margin-top: 0; 
 }
 
 .p-3 p{
-    width: 31%;   
+    width: 31%; 
+    height: 400px;  
     text-align: justify;
     padding-top: 0;
     margin-top: 0; 
