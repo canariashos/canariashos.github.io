@@ -63,7 +63,8 @@ header li{
 
  h3{
     color: #1caf85;
-    font-size: 3vw;
+    font-size: 2.8vw;
+    text-align: center;
  }
 
  p{
@@ -255,9 +256,16 @@ footer div{
 
     header .logo-div{
         width: 20%;
+        margin: 5px;
     }
 
     header .header-links{
         width: 75%;
+    }
+}
+
+@media (max-height: 600px){
+    p{
+        line-height: 6vh;
     }
 }
